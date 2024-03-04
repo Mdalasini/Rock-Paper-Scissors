@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.top-inner-shadow {
+    box-shadow: inset 0px 5px rgba(12, 10, 9, 0.2);
+}
+
+.bottom-inner-shadow {
+    box-shadow: inset 0px -5px rgba(12, 10, 9, 0.3);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
